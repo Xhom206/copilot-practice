@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skyline Studio</title>
+    <meta
+      name="description"
+      content="Сайт-визитка для дизайн-студии Skyline Studio"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="logo">Skyline<span>Studio</span></div>
+        <nav class="nav-links">
+          <a href="#about">О нас</a>
+          <a href="#services">Услуги</a>
+          <a href="#projects">Проекты</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+        <a class="button button-small" href="#contact">Связаться</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Дизайн, который работает на результат</span>
+            <h1>Создаём бренды, которые запоминаются.</h1>
+            <p>
+              Мы помогаем компаниям выделяться на фоне конкурентов через
+              современный визуальный стиль, продуманный пользовательский опыт и
+              сильную коммуникацию бренда.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#projects">Посмотреть проекты</a>
+              <a class="button button-secondary" href="#about">Подробнее</a>
+            </div>
+            <ul class="stats">
+              <li><strong>120+</strong><span>проектов</span></li>
+              <li><strong>8 лет</strong><span>опыта</span></li>
+              <li><strong>96%</strong><span>клиентов рекомендуют</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Пример дизайна страницы">
+            <div class="mockup-window">
+              <div class="mockup-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-body">
+                <div class="chart-card">
+                  <div class="card-header">
+                    <span>Рост</span>
+                    <span class="pill">+42%</span>
+                  </div>
+                  <div class="bars">
+                    <span style="--h: 36%"></span>
+                    <span style="--h: 58%"></span>
+                    <span style="--h: 48%"></span>
+                    <span style="--h: 72%"></span>
+                    <span style="--h: 86%"></span>
+                  </div>
+                </div>
+                <div class="mini-grid">
+                  <div class="mini-card top"></div>
+                  <div class="mini-card accent"></div>
+                  <div class="mini-card"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-column">
+          <div>
+            <span class="eyebrow">Почему выбирают нас</span>
+            <h2>Мы соединяем эстетику и бизнес-цели.</h2>
+          </div>
+          <p>
+            Наша команда работает как с молодыми стартапами, так и с
+            устоявшимися компаниями. Мы создаём решения, которые усиливают
+            узнаваемость, повышают доверие к бренду и помогают достигать целей.
+          </p>
+        </div>
+      </section>
+
+      <section id="services" class="section section-soft">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Услуги</span>
+            <h2>Полный цикл digital-брендинга</h2>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <div class="icon">01</div>
+              <h3>Бренд-стратегия</h3>
+              <p>
+                Формируем позиционирование, ценности и коммуникационную модель,
+                которые работают на рынке и внутри компании.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon">02</div>
+              <h3>Веб-дизайн</h3>
+              <p>
+                Разрабатываем продающие сайты и интерфейсы, ориентированные на
+                удобство и конверсию.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon">03</div>
+              <h3>Контент и визуал</h3>
+              <p>
+                Создаём контент-стратегии, фирменные элементы и материалы, которые
+                усиливают ваш бренд в digital.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Проекты</span>
+            <h2>Наши кейсы</h2>
+          </div>
+          <div class="portfolio">
+            <div class="project project-large">
+              <div class="project-info">
+                <span>Finora</span>
+                <h3>Запуск финтех-сервиса</h3>
+              </div>
+            </div>
+            <div class="project project-small project-alt">
+              <div class="project-info">
+                <span>NovaLab</span>
+                <h3>Переосмысление UX</h3>
+              </div>
+            </div>
+            <div class="project project-small">
+              <div class="project-info">
+                <span>Summit</span>
+                <h3>Лендинг для роста</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <div class="logo">Skyline<span>Studio</span></div>
+          <p>Делаем бренды, которые хочется рекомендовать.</p>
+        </div>
+        <div class="contact-box">
+          <a href="mailto:hello@skylinestudio.ru">hello@skylinestudio.ru</a>
+          <a href="tel:+79990000000">+7 (999) 000-00-00</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
